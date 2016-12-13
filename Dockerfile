@@ -7,7 +7,7 @@ MAINTAINER Paradrop Team <info@paradrop.io>
 # Install dependencies.  You can add additional packages here following the example.
 RUN apt-get update && apt-get install -y \
 #	<package> \
-	iperf3 \
+	iperf \
 	&& apt-get clean \
 	&& rm -rf /var/lib/apt/lists/*
 
